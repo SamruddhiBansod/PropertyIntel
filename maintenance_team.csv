@@ -1,0 +1,21 @@
+"type_of_maintenance";"maintenance_description";"category";"property_id"
+"Plumbing";"Fixing leaks and pipe maintenance";"Urgent";301
+"Electrical";"Wiring, lighting, and electrical repairs";"Routine";302
+"HVAC";"Heating, ventilation, and air conditioning service";"Seasonal";303
+"Landscaping";"Garden upkeep and lawn care";"Routine";304
+"Cleaning";"Deep cleaning of common areas";"Weekly";305
+"Pest Control";"Insect and rodent extermination";"Monthly";306
+"Painting";"Interior and exterior painting";"Annual";307
+"Roof Repair";"Roof maintenance and repairs";"Urgent";308
+"Security";"CCTV installation and monitoring";"Routine";309
+"Elevator Maintenance";"Lift servicing and repairs";"Monthly";310
+"Pool Maintenance";"Cleaning and chemical balancing";"Weekly";311
+"Fire Safety";"Fire alarm system testing and maintenance";"Annual";312
+"Window Cleaning";"Exterior window cleaning";"Quarterly";313
+"Parking";"Maintenance of parking lots";"Monthly";314
+"Lighting";"Outdoor and hallway lighting maintenance";"Routine";315
+"Gym Equipment";"Repair and maintenance of fitness machines";"Monthly";316
+"Waterproofing";"Leak prevention and waterproofing";"Annual";317
+"Carpentry";"Woodwork repairs and installations";"As Needed";318
+"Appliance Repair";"Maintenance of in-unit appliances";"As Needed";319
+"Waste Management";"Garbage collection and disposal";"Weekly";320
