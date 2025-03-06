@@ -30,7 +30,6 @@ The system integrates multiple datasets:
 - **virtual_tours.csv**: Records of online property visits.
 
 ## 🔍 Conceptual Modeling (EER Diagram)
-![EER Model](visualizations/EER_model.png)
 
 - **Primary entities**: Users, Buyers, Sellers, Properties, Agents, Contracts, Listings.
 - **Key relationships**: Buyer-Seller contracts, agent commissions, property ownership.
@@ -42,25 +41,13 @@ Example queries:
    SELECT BuyerID,
    PropertyID FROM Owns;
 2. **Find total commission percentage for each seller agent**
+   ````sql
    SELECT SellerAgentID, SUM(Commission)
    FROM s_commission GROUP BY SellerAgentID;
 3. **Retrieve all properties with their maintenance status**
+   ````sql
    SELECT p.PropertyID, p.Type, p.Price, m.Description
    FROM Properties p
    JOIN Maintenance_Team m ON p.PropertyID = m.PropertyID;
-
-## 📈 Data Visualization
-
-1️⃣ Price Distribution by Property Type
-![EER Model](visualizations/User_Distribution_by_Type.png)
-
-2️⃣ Property Listings by Status
-![EER Model](visualizations/Property Listings by Status.png)
-
-3️⃣ Average Price per Location
-![EER Model](visualizations/Average Property Price by Listings.png)
-
-4️⃣ Property Price vs Size
-![EER Model](visualizations/EER_model.png)
 
 
